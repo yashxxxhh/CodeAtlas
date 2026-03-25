@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+sqlalchemy
+psycopg2-binary
+alembic
+gitpython
+sentence-transformers
+faiss-cpu
+python-dotenv
+loguru

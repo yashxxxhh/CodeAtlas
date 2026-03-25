@@ -1,0 +1,10 @@
+app_name: CodeAtlas
+
+postgres_user: postgres
+postgres_password: ABC8800
+postgres_host: localhost
+postgres_port: 5432
+postgres_db: code_search
+
+repository_storage: ./data/repos
+vector_index_path: ./data/vector_index
