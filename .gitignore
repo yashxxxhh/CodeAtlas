@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+configs/.env
+configs/.env.local
+configs/.env.production
+backend/core/config.py
+
+# Data (large, generated)
+data/repos/
+data/faiss_index/
+
+# Keep empty directories
+!data/.gitkeep
+!data/repos/.gitkeep
+!data/faiss_index/.gitkeep
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Sentence transformers cache
+.cache/
