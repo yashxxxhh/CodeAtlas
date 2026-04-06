@@ -8,7 +8,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    database_url: str = "postgresql://codeatlas:lucky8800@localhost:5432/mydb"
+    database_url: str = "postgresql://codeatlas:lucky8800@db:5432/mydb"
     data_dir: str = "./data"
     faiss_index_path: str = "./data/faiss_index/index.faiss"
     chunk_id_map_path: str = "./data/faiss_index/chunk_ids.json"
