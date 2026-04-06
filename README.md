@@ -1,8 +1,6 @@
 # CodeAtlas — Semantic Code Search Platform
 
-> Search your entire codebase with plain English. No more grepping through files.
-
-
+Search your entire codebase with plain English. No more grepping through files.
 
 ## What it does
 
